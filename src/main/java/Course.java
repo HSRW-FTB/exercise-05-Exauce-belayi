@@ -29,7 +29,7 @@ class Course{
     return lecturer;
   }
   public void setCredit(int newCaredit){
-    this.credit = newCredit
+    this.credit = newCredit;
   }
   public int getCredit(){
     return credit;
