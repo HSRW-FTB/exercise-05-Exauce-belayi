@@ -1,5 +1,5 @@
 class BucketOfObjects{
-  private GeometricObject[] items;
+  private GeometricObject items;
   BucketOfObjects(){
   }
   public void addObject(GeometricObject){
