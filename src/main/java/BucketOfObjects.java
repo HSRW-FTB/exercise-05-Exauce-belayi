@@ -12,7 +12,7 @@ public class BucketOfObjects{
     for (int i = 0; i < items.size(); i++){
       totalArea += items.get(i).getArea();
     }
-    return totalArea
+    return totalArea;
   }
   public double getTotalPerimeter(){
         double totalPerimeter = 0.0;
