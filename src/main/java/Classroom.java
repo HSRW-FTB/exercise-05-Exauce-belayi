@@ -22,7 +22,7 @@ public class Classroom {
         //Add one to month {0 - 11}
         int month = calendar.get(Calendar.MONTH) + 1;
 
-        if (month<10 & month >2){
+        if (month<10 && month >2){
             term = "SS"+year+"/"+((year+1)%100);
         }else{
             term = "WS"+year+"/"+((year+1)%100);
