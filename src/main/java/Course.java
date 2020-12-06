@@ -1,4 +1,4 @@
-class Course_class{
+class Course{
   private String id;
   private String name;
   private Professor lecturer;
